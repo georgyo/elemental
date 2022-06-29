@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := package
-REPO?=quay.io/costoolkit/os2
+REPO?=quay.io/georgyo/os2
 TAG?=dev
 IMAGE=${REPO}:${TAG}
 ROOT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))

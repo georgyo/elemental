@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      REPO: quay.io/costoolkit/os2
+      REPO: quay.io/georgyo/os2
     steps:
       - uses: actions/checkout@v2
       -
